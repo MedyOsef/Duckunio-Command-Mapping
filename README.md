@@ -1,6 +1,6 @@
 # Duckunio-Command-Mapping
 
-commandMap /* Key that can be typed */
+## commandMap /* Key that can be typed */
     ESCAPE      = 'KEY_ESC'
     ESC         = 'KEY_ESC'
     GUI         = 'KEY_LEFT_GUI'
@@ -40,13 +40,13 @@ commandMap /* Key that can be typed */
     PAGEUP      = 'KEY_PAGE_UP'
     PAGEDOWN    = 'KEY_PAGE_DOWN'
 
-  comboMap: { /* Key that can only be used in combos */
+  ## comboMap: { /* Key that can only be used in combos */
     ALT     = 'KEY_LEFT_ALT'
     SHIFT   = 'KEY_LEFT_SHIFT'
     CTRL    = 'KEY_LEFT_CTRL'
     CONTROL = 'KEY_LEFT_CTRL'
 
-  keyMap: { /* Normal keys */
+  ## Letters Map: { /* Normal keys */
     a = '\'a\''
     b = '\'b\''
     c = '\'c\''
